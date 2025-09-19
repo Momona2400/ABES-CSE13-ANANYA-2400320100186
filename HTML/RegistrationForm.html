@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <form>
+        <table border="1" cellpadding="6" cellspacing="0"  align="center">
+            <tr align="center">
+                <td>
+                    Full name: 
+                </td>
+                <td>
+                    <input type="text" name="fullname" required></input>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    Email: 
+                </td>
+                <td>
+                    <input type="email" name="email" required></input>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input type="password" name="password" required></input>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    Confirm password:
+                </td>
+                <td>
+                    <input type="password" name="password" required></input>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="Male">Male</input>
+                    <input type="radio" name="gender" value="Female">Female</input>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    Hobbies:
+                </td>
+                <td>
+                    <input type="checkbox" name="hobbies" value="reading">Reading</input>
+                    <input type="checkbox" name="hobbies" value="painting">Painting</input>
+                    <input type="checkbox" name="hobbies" value="gaming">Gaming</input>
+                    <input type="checkbox" name="hobbies" value="writing">Writing</input>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    Course:
+                </td>
+                <td>
+                    <select>
+                        <option>select</option>
+                        <option>MCA</option>
+                        <option>BTech</option>
+                    </select>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    Address:
+                </td>
+                <td>
+                    <textarea name="address" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" align="center"></input>
+    </form>
+    
+</body>
+</html>
